@@ -1,0 +1,18 @@
+---
+name: CMPSC 302: Chat Server
+break: true
+indent: 2
+---
+
+writing/description.md:
+  CountFileWords --count 150
+
+writing/update.md:
+  CountFileWords --count 250 
+
+writing/report.md:
+  CountFileWords --count 500
+
+ExecuteCommand --command "html5validator --root docs/" --description "[HTML] The docs/ directory passes W3C validation"
+ExecuteCommand --command "html5validator --root docs/style --skip-non-css" --description "[CSS] The docs/ directory passes W3C validation"
+
