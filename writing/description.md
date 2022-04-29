@@ -4,7 +4,7 @@
 
     Inspired by my final for Computational Cultures, I propose that Annaliese and I create a website along with other functionality to present the information of a "gamer" project. The website would be designed to reflect the popular game streaming website of [Twitch](https://www.twitch.tv/). We plan to make a home page, two "streamer" profiles, and create a template video layout. If possible, we would like to use the content I have created for my Computational Cultures final (a video and artist statement). However, we can separate out the work to turn this in as a clean project for this course alone and use placeholders for where the content would have been.
 
-    The website that we are modeling after has some very interesting design choices with multiple grids, side bars, and a global style with some artistic differences within user profiles. Some features that we hope to include are automated pop-ups, "easter egg" content, and potentially a chat feature.
+    The website that we are modeling after has some very interesting design choices with multiple grids, side bars, and a global style with some artistic differences within user profiles. Some features that we hope to include are automated pop-ups, "easter egg" content, and potentially a chat feature. This project will mostly be focused on layout, especially for the various screen sizes.
 
 ## Areas of development
 
@@ -22,8 +22,8 @@
 
 ## Ideal outcome
 
-    A successful outcome would be our website with an index and three connected pages. A balance between functionality and aesthetics will be important for us.
+    A successful outcome would be our website with an index and three connected pages. A balance between functionality and aesthetics will be important for us. 
 
     We are planning to include some of the features we learned to make on prior assignments. From the Zen Gardens, we are planning to coordinate and create global styles and repetitive content while also allowing for unique styles within the profiles. The Simon Game inspiration will be seen in the functionality and style of the usable buttons and automated pop ups. Lastly, we are considering implementing some chat features like that CatChat to add complexity to our group project. Key-down event listeners may also be included with different functions to reveal "easter egg" content.
 
-    This project will be worthy to complete as it is a summation of our skills while still pushing each of us further. It is in some aspects a commentary on gaming and streaming culture while some artistic liberties. 
+    This project will be worthy to complete as it is a summation of our skills while still pushing each of us further. It is a criticism not only on gaming and streaming culture but also on the layout of Twitch. 
