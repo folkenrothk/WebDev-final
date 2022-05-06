@@ -2,4 +2,90 @@
 
 html {
 
+ font-family: sans-serif;
+ 
+}
+
+body{
+ background-color: #222222;
+ color: #ffffff;
+}
+
+#mainNavBar {
+    border-bottom: #333333;
+    border-bottom: 5px;
+}
+
+#contentSection{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.video{
+    text-align: center;
+}
+
+#videoHeader{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+img{
+    border-radius: 100%;
+    width: 7rem;
+    order: 1;
+    margin: auto auto;
+}
+
+#headerDetails{
+    order:2;
+}
+
+#username{
+    font-size: 18pt;
+    font-weight: bold;
+    padding: 0;
+}
+
+#videoTitle{
+    font-size: 14pt;
+    font-weight: 400;
+    padding: 0;
+}
+
+#featuredTags{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+}
+
+#gameFeatured {
+    color: #510fb5;
+    font-size: 14pt;  
+    order: 1;
+}
+
+button {
+    color:#777777;
+    font-size: medium; 
+}
+button:hover {
+    color: #42069f;
+    font-size: medium; 
+}
+#tags{
+    margin-top: 1rem;
+    order: 2;
+}
+
+#gridContent{
+
+}
+
+#chatWrangler{
+
+}
+
+#gSidebar{
+
 }

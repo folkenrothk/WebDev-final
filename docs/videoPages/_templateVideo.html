@@ -2,32 +2,36 @@
 <html lang="en">
   <head>
     <title>Video Stream: {Title}</title>
-    <link href="style/style-video.css" rel="stylesheet">
+    <link href="../style/style-video.css" rel="stylesheet">
   </head>
   <body>
     <div id="mainNavBar"> 
     </div> 
 
     <div id="contentSection">
-      <video controls>
-        <source src="video/holdPls.mp4" type="video/mp4">
+      <video  width="520"controls>
+        <source src="../style/video/holdPls.mp4" type="video/mp4">
       Your browser does not support the video tag.
       </video>
       <div id="videoHeader">
         <!-- Username, title, tags-->
-        <img src="userIcons/katwGamer.png" alt="User Icon">
+        <img src="../style/img/katwGamer.png" alt="Temp User Icon">
         <h1 id="username"> {Username}</h1>
         <h2 id="videoTitle"> {Title of Video} </h2>
-        <h3 id="gameFeatured"> {Title of Game being played} </h3>
-        <div id="tags">
-          <button> {Button label} </button>
+        <div id="featuredTags">
+          <h3 id="gameFeatured"><u>{Title of Game being played} </u></h3>
+          <div id="tags">
+            <button> {Button label} </button>
+          </div>
+        </div>
+        <div id="gridContent">
         </div>
     </div>
 
     <div id="chatWrangler">
       <!-- pseudo chat-->
     </div>
-    <sidebar id="globalFollowerSidebar"> 
+    <sidebar id="gSidebar"> 
       <!--Channels "Global Follower Sidebar"-->
     </sidebar>
     <script src="scripts/script.js" type="text/javascript"></script>
