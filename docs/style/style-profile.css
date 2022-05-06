@@ -2,7 +2,7 @@
 /* global */
 
 html {
-    font-family: sans-serif;
+    
 }
 
 head {
@@ -14,23 +14,35 @@ body {
 }
 
 .globalNavMenuBar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    padding: 10px;
+}
 
+h1 {
+    grid-column: 1;
+    grid-row: 1;
 }
 
 #followingLink {
-
+    grid-column: 2;
+    grid-row: 1;
 }
 
 #browseLink {
-
+    grid-column: 3;
+    grid-row: 1;
 }
 
 #searchBar {
-    
+    grid-column: 4;
+    grid-row: 1;
 }
 
 .sideNavLiveList {
-
+    
 }
 
 #followedChannelsLiveList {

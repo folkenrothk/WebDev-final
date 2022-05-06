@@ -1,7 +1,7 @@
 /* Style sheet for home page */
 /* global */
 html {
-
+font-family:sans-serif;
 }
 
 head {
@@ -9,10 +9,6 @@ head {
 }
 
 body {
-
-}
-
-h1 {
 
 }
 
@@ -29,23 +25,35 @@ main {
 }
 
 .globalNavMenuBar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    padding: 10px;
+}
 
+h1 {
+    grid-column: 1;
+    grid-row: 1;
 }
 
 #followingLink {
-
+    grid-column: 2;
+    grid-row: 1;
 }
 
 #browseLink {
-
+    grid-column: 3;
+    grid-row: 1;
 }
 
 #searchBar {
-    
+    grid-column: 4;
+    grid-row: 1;
 }
 
 .sideNavLiveList {
-
+    
 }
 
 #followedChannelsLiveList {
@@ -55,22 +63,30 @@ main {
 /* Main Page */
 
 .mainPageGrid {
-
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 15px;
+    padding: 10px;
 }
 
-.heroCardOfVideo {
-
+#heroCardOfVideo {
+    /* come back to this later. put something else here */
+    grid-column: 1;
+    grid-row: 1;
 }
 
-.liveChannelsVideosAcross {
-
+#liveChannelsVideosAcross {
+    grid-column: 1;
+    grid-row: 2;
 }
 
-.categoriesPortraitCards {
-
+#categoriesPortraitCards {
+    grid-column: 1;
+    grid-row: 3;
 }
 
-.trendingLiveChannels {
-    
+#trendingLiveChannels {
+    grid-column: 1;
+    grid-row: 4;
 }
-
