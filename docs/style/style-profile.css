@@ -1,5 +1,76 @@
 /* Style sheet for channel profile pages */
+/* global */
 
 html {
+
+}
+
+head {
+
+}
+
+body {
+
+}
+
+.globalNavMenuBar {
+
+}
+
+#followingLink {
+
+}
+
+#browseLink {
+
+}
+
+#searchBar {
+    
+}
+
+.sideNavLiveList {
+
+}
+
+#followedChannelsLiveList {
+
+}
+
+/* Channel Profile Page */
+
+.channelName {
+
+}
+
+.channelTabs {
+
+}
+
+#channelHomeTab {
+
+}
+
+#channelAboutTab {
+
+}
+
+#channelScheduleTab {
+
+}
+
+#channelVideosTab {
+
+}
+
+.recentBroadcasts {
+
+}
+
+.recentlyStreamedCategories {
+
+}
+
+.channelSuggestedStreamers {
 
 }

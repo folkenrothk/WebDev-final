@@ -1,3 +1,5 @@
+/* Style sheet for home page */
+/* global */
 html {
 
 }
@@ -7,6 +9,10 @@ head {
 }
 
 body {
+
+}
+
+h1 {
 
 }
 
@@ -22,26 +28,49 @@ main {
 
 }
 
-.global-nav-menu-bar {
+.globalNavMenuBar {
 
 }
 
-.side-nav-live-list {
+#followingLink {
 
 }
 
-.main-page-grid {
+#browseLink {
 
 }
 
-.hero-card-of-video {
+#searchBar {
+    
+}
+
+.sideNavLiveList {
 
 }
 
-.live-channels-videos-across {
+#followedChannelsLiveList {
 
 }
 
-.categories-portrait-cards {
+/* Main Page */
+
+.mainPageGrid {
 
 }
+
+.heroCardOfVideo {
+
+}
+
+.liveChannelsVideosAcross {
+
+}
+
+.categoriesPortraitCards {
+
+}
+
+.trendingLiveChannels {
+    
+}
+
