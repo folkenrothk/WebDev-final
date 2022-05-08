@@ -2,6 +2,8 @@
 /* global */
 html {
 font-family:sans-serif;
+background: #000000;
+color: #FFFFFF;
 }
 
 head {
@@ -30,11 +32,17 @@ main {
     grid-template-rows: auto;
     grid-gap: 15px;
     padding: 10px;
+    margin-top: 3%;
+}
+
+.globalNavMenuBar a:hover {
+    color: #8947ed /* purple */
 }
 
 h1 {
     grid-column: 1;
     grid-row: 1;
+    color: #8947ed /* purple */
 }
 
 #followingLink {
@@ -51,6 +59,12 @@ h1 {
     grid-column: 4;
     grid-row: 1;
 }
+
+.globalNavMenuBar input[type=text] {
+    background: #000000;
+    color: #FFFFFF;
+}
+
 
 .sideNavLiveList {
     
@@ -74,19 +88,32 @@ h1 {
     /* come back to this later. put something else here */
     grid-column: 1;
     grid-row: 1;
+    text-align: center;
+    padding: 3rem;
+    display:block;
+    background: #8674a1 /* light purple*/
 }
 
 #liveChannelsVideosAcross {
     grid-column: 1;
     grid-row: 2;
+    text-align: center;
+    padding: 3rem;
+    background: #8674a1 /* light purple */
 }
 
 #categoriesPortraitCards {
     grid-column: 1;
     grid-row: 3;
+    text-align: center;
+    padding: 3rem;
+    background: #8674a1 /* light purple */
 }
 
 #trendingLiveChannels {
     grid-column: 1;
     grid-row: 4;
+    text-align: center;
+    padding: 3rem;
+    background: #8674a1 /* light purple */
 }

@@ -2,7 +2,9 @@
 /* global */
 
 html {
-    
+    font-family: sans-serif;
+    background: #000000;
+    color: #FFFFFF;
 }
 
 head {
@@ -19,11 +21,17 @@ body {
     grid-template-rows: auto;
     grid-gap: 15px;
     padding: 10px;
+    margin-top: 3%;
+}
+
+.globalNavMenuBar a:hover {
+    color: #8947ed /* purple */
 }
 
 h1 {
     grid-column: 1;
     grid-row: 1;
+    color: #8947ed /* purple */
 }
 
 #followingLink {
@@ -39,6 +47,11 @@ h1 {
 #searchBar {
     grid-column: 4;
     grid-row: 1;
+}
+
+.globalNavMenuBar input[type=text] {
+    background: #000000;
+    color: #FFFFFF;
 }
 
 .sideNavLiveList {
@@ -62,11 +75,17 @@ h1 {
 #statusBox {
     grid-column: 1;
     grid-row: 1;
+    padding: 3rem;
+    display:block;
+    background: #8674a1 /* light purple*/
 }
 
 #embeddedVideo {
     grid-column: 2;
     grid-row: 1;
+    padding: 3rem;
+    display:block;
+    background: #8674a1 /* light purple*/
 }
 
 .channelName {
@@ -84,21 +103,33 @@ h1 {
 #channelHomeTab {
     grid-column: 1;
     grid-row: 1;
+    padding: 3rem;
+    display:block;
+    background: #8674a1 /* light purple*/
 }
 
 #channelAboutTab {
     grid-column: 2;
     grid-row: 1;
+    padding: 3rem;
+    display:block;
+    background: #8674a1 /* light purple*/
 }
 
 #channelScheduleTab {
     grid-column: 3;
     grid-row: 1;
+    padding: 3rem;
+    display:block;
+    background: #8674a1 /* light purple*/
 }
 
 #channelVideosTab {
     grid-column: 4;
     grid-row: 1;
+    padding: 3rem;
+    display:block;
+    background: #8674a1 /* light purple*/
 }
 
 .recentBroadcasts {
@@ -107,6 +138,8 @@ h1 {
     grid-template-rows: auto;
     grid-gap: 10px;
     padding: 5px;
+    margin: 2rem;
+    background: #8674a1 /* light purple*/
 }
 
 .recentlyStreamedCategories {
@@ -115,6 +148,8 @@ h1 {
     grid-template-rows: auto;
     grid-gap: 10px;
     padding: 5px;
+    margin: 2rem;
+    background: #8674a1 /* light purple*/
 }
 
 .channelSuggestedStreamers {
@@ -123,4 +158,6 @@ h1 {
     grid-template-rows: auto;
     grid-gap: 10px;
     padding: 5px;
+    margin: 2rem;
+    background: #8674a1 /* light purple*/
 }
