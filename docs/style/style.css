@@ -1,9 +1,18 @@
 /* Style sheet for home page */
 /* global */
+/* colors:
+    #FFFFFF; White
+    #222222; Dark Grey 
+    #333333; Light Grey
+    #42069F; Dark Purple
+    #6F2CD3; Mid Purple
+    #B191E2; Light Purple
+*/
+
 html {
 font-family:sans-serif;
-background: #000000;
-color: #FFFFFF;
+background: #222222;
+color: #000000;
 }
 
 head {
@@ -11,7 +20,7 @@ head {
 }
 
 body {
-
+    margin: 0;
 }
 
 link {
@@ -31,33 +40,34 @@ main {
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
     grid-gap: 15px;
-    padding: 10px;
-    margin-top: 3%;
+    padding: 1%;
+    background: #000000;
+    color: #ffffff;
 }
 
 .globalNavMenuBar a:hover {
-    color: #8947ed /* purple */
+    color: #6f2cd3 /* mid purple */
 }
 
 h1 {
-    grid-column: 1;
-    grid-row: 1;
-    color: #8947ed /* purple */
+    order: 1;
+    margin: auto auto;
+    color: #6f2cd3 /* mid purple */
 }
 
 #followingLink {
-    grid-column: 2;
-    grid-row: 1;
+    order: 2;
+    margin: auto 0;
 }
 
 #browseLink {
-    grid-column: 3;
-    grid-row: 1;
+    order: 3;
+    margin: auto 0;
 }
 
 #searchBar {
-    grid-column: 4;
-    grid-row: 1;
+    order: 4;
+    margin: auto 0;
 }
 
 .globalNavMenuBar input[type=text] {
@@ -66,12 +76,22 @@ h1 {
 }
 
 
-.sideNavLiveList {
-    
+.sideNav {
+    background: #000000;
+    height: 100%; 
+    width: 5%; 
+    position: fixed; 
+    z-index: 2; 
+    top: 0; 
+    left: 0;
+    padding-top: 5%;
 }
 
-#followedChannelsLiveList {
-
+.sideNav img {
+    margin-left: 1rem;
+    width: 2.5rem;
+    padding-top: .5rem;
+    border-radius: 100%;
 }
 
 /* Main Page */
@@ -82,6 +102,7 @@ h1 {
     grid-template-rows: auto auto auto auto;
     grid-gap: 15px;
     padding: 10px;
+    padding-left: 8%;
 }
 
 #heroCardOfVideo {
@@ -91,7 +112,7 @@ h1 {
     text-align: center;
     padding: 3rem;
     display:block;
-    background: #8674a1 /* light purple*/
+    background: #B191E2 /* light purple*/
 }
 
 #liveChannelsVideosAcross {
@@ -99,7 +120,7 @@ h1 {
     grid-row: 2;
     text-align: center;
     padding: 3rem;
-    background: #8674a1 /* light purple */
+    background: #B191E2 /* light purple*/
 }
 
 #categoriesPortraitCards {
@@ -107,7 +128,7 @@ h1 {
     grid-row: 3;
     text-align: center;
     padding: 3rem;
-    background: #8674a1 /* light purple */
+    background: #B191E2 /* light purple*/
 }
 
 #trendingLiveChannels {
@@ -115,5 +136,5 @@ h1 {
     grid-row: 4;
     text-align: center;
     padding: 3rem;
-    background: #8674a1 /* light purple */
+    background: #B191E2 /* light purple*/
 }
