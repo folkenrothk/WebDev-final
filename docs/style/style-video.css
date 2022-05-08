@@ -1,36 +1,106 @@
 /* Style Sheet for Video Pages*/
 
 html {
-
  font-family: sans-serif;
- 
 }
 
 body{
- background-color: #222222;
+ background-color: #333333;
  color: #ffffff;
+ margin:0;
 }
 
-#mainNavBar {
-    border-bottom: #333333;
-    border-bottom: 5px;
+img {
+    border-radius: 100%;
+    margin: auto auto;
 }
+
+/*MAIN MENU BAR*/
+#mainNavBar {
+    top:0;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px;
+    position: static;
+    padding: 1%;
+}
+
+#mainNavBar a:hover {
+    color: #6f2cd3 /* MAINpurple */
+}
+
+#siteName {
+    order:1;
+    margin: auto auto;
+    color: #6f2cd3 /* MAINpurple */
+}
+
+#followingLink {
+    order:2;
+    margin: auto 0;
+}
+
+#browseLink {
+    order:3;
+    margin: auto 0;
+}
+
+#searchBar {
+    order:4;
+    margin: auto 0;
+}
+
+#mainNavBar input[type=text] {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+/* SIDEBAR*/
+
+.sideNav {
+    background: #000000;
+    height: 100%; 
+    width: 5%; 
+    position: fixed; 
+    z-index: 2; 
+    top: 0; 
+    left: 0;
+    padding-top: 5%;
+}
+
+.sideNav img {
+    margin-left: 25%;
+    width: 3.5rem;
+    padding-top: .5rem;
+    border-radius: 100%;
+}
+
+/* VIDEO CONTENT*/
 
 #contentSection{
+    left:5%;
     margin: 0 auto;
-    width: 70%;
+    width: 90%;
+
 }
 
 .video{
-    text-align: center;
+    text-align: left;
 }
 
 #videoHeader{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 10% 90%;
+    background-color: #222222;
+    width:80%;
 }
 
-img{
+#icon{
+    margin: auto auto;
+}
+
+#videoHeader img{
     border-radius: 100%;
     width: 7rem;
     order: 1;
@@ -55,22 +125,24 @@ img{
 
 #featuredTags{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 15% 85%;
     grid-gap: 1rem;
 }
 
 #gameFeatured {
-    color: #510fb5;
+    color: #B191E2;
     font-size: 14pt;  
     order: 1;
 }
 
 button {
-    color:#777777;
+    color:#555555;
     font-size: medium; 
+    border-radius: 10pt;
 }
 button:hover {
-    color: #42069f;
+    background-color: #6f2cd3;
+    color: white;
     font-size: medium; 
 }
 #tags{
@@ -82,10 +154,39 @@ button:hover {
 
 }
 
+/* CHAT BAR (RIGHT) */
 #chatWrangler{
-
+    background: #000000;
+    height: 100%; 
+    width: 15%; 
+    position: fixed; 
+    z-index: 3;
+    top: 0; 
+    right: 0;
+    display: grid;
+    
 }
 
-#gSidebar{
+#chat-window {
+    overflow-y: scroll;
+    animation: .15s;
+    width: 15%;
+    padding-left: 2%;
+    padding-right: 5%;
+    margin: 0 auto;
+    background-color: #69f420;
+    color: #f69420;
+}
 
+#chatMgmt {
+    order: 3;
+}
+
+#chatMgmt form{
+    display: grid;
+    height: 10vh;
+    width: 80vw;
+    grid-template-columns: 70vw 10vw;
+    grid-gap: 2vw;
+    margin: 0 auto;
 }
