@@ -12,8 +12,26 @@ body{
 }
 
 #mainNavBar {
-    border-bottom: #333333;
-    border-bottom: 5px;
+    background: #444444;
+    z-index: 1; 
+}
+
+.sideNav {
+    background: #444444;
+    height: 100%; 
+    width: 5%; 
+    position: fixed; 
+    z-index: 2; 
+    top: 0; 
+    left: 0;
+    padding-top: 5%;
+}
+
+.sideNav img {
+    margin-left: 1rem;
+    width: 2.5rem;
+    padding-top: .5rem;
+    border-radius: 100%;
 }
 
 #contentSection{
@@ -30,7 +48,11 @@ body{
     grid-template-columns: auto auto;
 }
 
-img{
+#icon{
+    margin: auto auto;
+}
+
+#videoHeader img{
     border-radius: 100%;
     width: 7rem;
     order: 1;
