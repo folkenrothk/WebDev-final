@@ -6,11 +6,17 @@
   </head>
   <body>
     <div id="mainNavBar"> 
+      <h1 id="siteName">FLUTTER</h1>
+      <a id = "followingLink"> Following </a>
+      <a id = "browseLink"> Browse </a>
+      <div id = "searchBar">
+        <input type = "text" placeholder = "Search">
+      </div>
     </div> 
     
     <div id="contentSection">
       <div class="video">
-        <video width="720" controls>
+        <video width="80%" controls>
           <source src="../style/video/holdPls.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
@@ -38,6 +44,17 @@
 
     <div id="chatWrangler">
       <!-- pseudo chat-->
+      <div id="chatWindow">
+      </div>
+      <div id="chatMgmt"> 
+        <form id = "chatForm" onsubmit="submit">
+          <label for="sendMsg" title="Message entry" hidden>Message Entry:</label>
+          <textarea id = "sendMsg"></textarea>
+            <button id = "sendBtn" type = "submit">
+              &raquo;
+            </button>
+          </form>
+      </div>
     </div>
     <div class="sideNav">
       <!--Channels "Global Following Sidebar"-->
