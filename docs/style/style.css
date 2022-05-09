@@ -39,20 +39,22 @@ main {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
-    grid-gap: 15px;
+    grid-gap: 5px;
     padding: 1%;
     background: #000000;
     color: #ffffff;
+    font-family: sans-serif;
 }
 
 .globalNavMenuBar a:hover {
     color: #6f2cd3 /* mid purple */
 }
 
-h1 {
+.globalNavMenuBar img {
+    height: 4em;
+    width: 12em;
     order: 1;
-    margin: auto auto;
-    color: #6f2cd3 /* mid purple */
+    margin: auto 0;
 }
 
 #followingLink {
@@ -85,6 +87,7 @@ h1 {
     top: 0; 
     left: 0;
     padding-top: 5%;
+    margin-top:4.5em;
 }
 
 .sideNav img {
