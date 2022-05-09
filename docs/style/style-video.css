@@ -71,7 +71,7 @@ img {
 
 .sideNav img {
     margin-left: 25%;
-    width: 3.5rem;
+    width: 2.5rem;
     padding-top: .5rem;
     border-radius: 100%;
 }
@@ -92,18 +92,19 @@ img {
 #videoHeader{
     display: grid;
     grid-template-columns: 10% 90%;
+    grid-gap: 1rem;
     background-color: #222222;
     width:80%;
 }
 
 #icon{
     margin: auto auto;
+    order: 1;
 }
 
 #videoHeader img{
     border-radius: 100%;
-    width: 7rem;
-    order: 1;
+    width: 6rem;
     margin: auto auto;
 }
 
@@ -114,18 +115,20 @@ img {
 #username{
     font-size: 18pt;
     font-weight: bold;
-    padding: 0;
+    margin: 0;
+    padding-top: 1rem;
 }
 
 #videoTitle{
     font-size: 14pt;
     font-weight: 400;
-    padding: 0;
+    margin: 0;
+    padding-top: .5rem;
 }
 
 #featuredTags{
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 20% 80%;
     grid-gap: 1rem;
 }
 
@@ -133,6 +136,8 @@ img {
     color: #B191E2;
     font-size: 14pt;  
     order: 1;
+    margin: 0;
+    padding-top: 1rem;
 }
 
 button {
@@ -146,7 +151,8 @@ button:hover {
     font-size: medium; 
 }
 #tags{
-    margin-top: 1rem;
+    margin: 0;
+    padding-top: 1rem;
     order: 2;
 }
 
@@ -154,7 +160,8 @@ button:hover {
 
 }
 
-/* CHAT BAR (RIGHT) */
+/* CHAT BAR (RIGHT) -- Potentially come back to this later*/
+/*
 #chatWrangler{
     background: #000000;
     height: 100%; 
@@ -190,3 +197,4 @@ button:hover {
     grid-gap: 2vw;
     margin: 0 auto;
 }
+*/

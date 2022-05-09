@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href="../style/style-profileV2.css" rel="stylesheet">
     <title>Profile: Katw_Humanoid</title>
-    <link href="style/style.css" rel="stylesheet">
   </head>
   <body>
-    <h1>    </h1>
+
+    <!-- Stays Across All Pages -->
+    <div id="mainNavBar"> 
+      <h1 id="siteName">FLUTTER</h1>
+      <a id = "followingLink"> Following </a>
+      <a id = "browseLink"> Browse </a>
+      <div id = "searchBar">
+        <input type = "text" placeholder = "Search">
+      </div>
+    </div> 
+    
+    <!-- sideNav-->
+    <div class="sideNav">
+      <!--Channels "Global Following Sidebar"-->
+      <a href="../profiles/profileKatw.html"><img src="../style/img/katwGamer.png" alt ="KatwGamer Icon"></a>
+      <a href="../profiles/profileTruGamer.html"><img src="../style/img/truGamer.png" alt ="Tru_Gamer Icon"></a>
+      <a href=""><img></a>
+    </div>
+
+    <!-- Start of Channel Profile -->
+    <section id="profile">
+    <section class = "profileTop">
+      <section id = "statusBox">
+        Status Box
+      </section>
+      <section id = "embeddedVideo">
+        <video width="50%" controls>
+          <source src="../style/video/holdPls.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+      </section>
+    </section>
+    <section id = "channelHeader">
+      <a href="../profiles/profileKatw.html" id="icon"><img src="../style/img/katwGamer.png" alt="KatwGamer Icon" id="UserIcon"></a>
+      <div id="channelText">
+        <h1 id="username"> Katw_Humanoid</h1>
+        <h2 id="followers"> 1.2M Followers</h2>
+      </div>
+    </section>
+    <section class = "channelTabs">
+      <div id = "channelHomeTab"><a href="profileKatw.html">Home</a></div>
+      <div id = "channelAboutTab">About</div>
+      <div id = "channelScheduleTab">Schedule</div>
+      <div id = "channelVideosTab">Videos</div>
+    </section>
+
+    <section class = "recentBroadcasts">
+      Recent Broadcasts
+    </section>
+
+    <section class = "recentlyStreamedCategories">
+      Recently Streamed Categories
+    </section>
+
+    <section class = "channelSuggestedStreamers">
+      <a href="profileTruGamer.html"><img src="../style/img/truGamer.png"></a>
+
+    </section>
+    </section>
+
     <script src="scripts/script.js" type="text/javascript"></script>
   </body>
 </html>
