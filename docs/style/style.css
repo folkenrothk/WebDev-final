@@ -44,6 +44,8 @@ main {
     background: #000000;
     color: #ffffff;
     font-family: sans-serif;
+    position: sticky;
+    z-index: 10;
 }
 
 .globalNavMenuBar a:hover {
@@ -86,8 +88,8 @@ main {
     z-index: 2; 
     top: 0; 
     left: 0;
-    padding-top: 5%;
-    margin-top:4.9em;
+    padding-top: 10%;
+    z-index: 8;
 }
 
 .sideNav img {
