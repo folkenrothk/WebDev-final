@@ -11,32 +11,30 @@
 
 html {
     font-family: sans-serif;
-    background: #222222;
-    color: #000000;
-}
-
-head {
-
 }
 
 body {
+    background-color: #333333;
+    color: #ffffff;
     margin: 0;
 }
 
 img {
-    border-radius: 100%;
     margin: auto auto;
+    width:10vw;
 }
 
 .globalNavMenuBar {
+    top:0;
+    background: #000000;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
-    grid-gap: 5px;
     padding: 1%;
-    background: #000000;
-    color: #ffffff;
-    font-family: sans-serif;
+    grid-gap: 15px;
+    position: sticky;
+    z-index: 10;
+
 }
 
 .globalNavMenuBar a:hover {
@@ -78,8 +76,8 @@ img {
     z-index: 2; 
     top: 0; 
     left: 0;
-    padding-top: 5%;
-    margin-top:4.9em;
+    padding-top: 10%;
+    z-index: 8;
 }
 
 .sideNav img {
@@ -131,22 +129,27 @@ img {
 #icon{
     margin: auto auto;
     order: 1;
-}
-
-.channelName img{
     border-radius: 100%;
-    width: 6rem;
-    margin: auto auto;
+    width: 7vw;
 }
 
-#username, #followers{
+#channelText{
+    order:2;
+}
+
+#username {
     font-size: 18pt;
     font-weight: bold;
     margin: 0;
     padding-top: 1rem;
-    order: 2;
 }
 
+#followers{
+    font-size: 14pt;
+    font-weight: 400;
+    margin: 0;
+    padding-top: .5rem;
+}
 
 .channelTabs {
     display: grid;
