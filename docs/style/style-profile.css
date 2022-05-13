@@ -96,12 +96,14 @@ a{
 
 /* Channel Profile Page */
 #profile {
-    margin-left:5%;
+    margin-left: 8%;
     width: 95%;
 }
 
 .profileTop {
+    margin-left: 8%;
     display: grid;
+    width: 85%;
     grid-template-columns: 20% 70%;
     grid-template-rows: 100%;
     grid-gap: 15px;
@@ -144,7 +146,7 @@ video {
     grid-gap: 1rem;
     padding: 1rem;
     background-color: #222222;
-    width:80%;
+    width:85%;
 }
 
 #icon{
@@ -173,11 +175,11 @@ video {
 }
 
 .channelTabs {
+    margin-left: 8%;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin-left:8%;
     height: 5%;
-    width: 90%;
+    width: 85%;
     grid-gap: 10px;
     padding: 5px;
     text-align: center;
@@ -220,33 +222,39 @@ h3 {
 }
 
 .recentBroadcasts {
+    margin-left: 8%;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto;
     grid-gap: 10px;
     padding: 5px;
     margin: 2rem;
-    background: #222222
+    width: 85%;
+    background: #222222;
 }
 
 .recentlyStreamedCategories {
+    margin-left: 8%;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto;
     grid-gap: 10px;
     padding: 5px;
     margin: 2rem;
-    background: #222222
+    width: 85%;
+    background: #222222;
 }
 
 .channelSuggestedStreamers {
+    margin-left: 8%;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto;
     grid-gap: 10px;
     padding: 5px;
     margin: 2rem;
-    background: #222222
+    width: 85%;
+    background: #222222;
 }
 
 .channelSuggestedStreamers img {
