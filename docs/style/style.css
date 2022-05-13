@@ -1,3 +1,143 @@
-html {
+/* Style sheet for home page */
+/* global */
+/* colors:
+    #FFFFFF; White
+    #222222; Dark Grey 
+    #333333; Light Grey
+    #42069F; Dark Purple
+    #6F2CD3; Mid Purple
+    #B191E2; Light Purple
+*/
 
+html {
+font-family:sans-serif;
+background: #222222;
+color: #000000;
+}
+
+head {
+
+}
+
+body {
+    margin: 0;
+}
+
+link {
+
+}
+
+title {
+
+}
+
+main {
+
+}
+
+.globalNavMenuBar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    padding: 1%;
+    background: #000000;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.globalNavMenuBar a:hover {
+    color: #6f2cd3 /* mid purple */
+}
+
+.globalNavMenuBar img {
+    height: 4em;
+    width: 12em;
+    order: 1;
+    margin: auto 0;
+}
+
+#followingLink {
+    order: 2;
+    margin: auto 0;
+}
+
+#browseLink {
+    order: 3;
+    margin: auto 0;
+}
+
+#searchBar {
+    order: 4;
+    margin: auto 0;
+}
+
+.globalNavMenuBar input[type=text] {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+
+.sideNav {
+    background: #000000;
+    height: 100%; 
+    width: 5%; 
+    position: fixed; 
+    z-index: 2; 
+    top: 0; 
+    left: 0;
+    padding-top: 5%;
+    margin-top:4.9em;
+}
+
+.sideNav img {
+    margin-left: 1rem;
+    width: 2.5rem;
+    padding-top: .5rem;
+    border-radius: 100%;
+}
+
+/* Main Page */
+
+.mainPageGrid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 15px;
+    padding: 10px;
+    padding-left: 8%;
+}
+
+#heroCardOfVideo {
+    /* come back to this later. put something else here */
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    padding: 3rem;
+    display:block;
+    background: #B191E2 /* light purple*/
+}
+
+#liveChannelsVideosAcross {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    padding: 3rem;
+    background: #B191E2 /* light purple*/
+}
+
+#categoriesPortraitCards {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: center;
+    padding: 3rem;
+    background: #B191E2 /* light purple*/
+}
+
+#trendingLiveChannels {
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+    padding: 3rem;
+    background: #B191E2 /* light purple*/
 }

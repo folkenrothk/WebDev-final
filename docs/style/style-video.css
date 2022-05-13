@@ -1,0 +1,202 @@
+/* Style Sheet for Video Pages*/
+
+html {
+ font-family: sans-serif;
+}
+
+body{
+ background-color: #333333;
+ color: #ffffff;
+ margin:0;
+}
+
+img {
+    margin: auto auto;
+}
+
+/*MAIN MENU BAR*/
+#mainNavBar {
+    z-index: 10;
+    top:0;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px;
+    position: sticky;
+    padding: 1%;
+}
+
+#mainNavBar a:hover {
+    color: #6f2cd3 /* MAINpurple */
+}
+
+#siteName img{
+    order:1;
+    height: 4em;
+    width: 12em;
+    margin: auto 0;
+    color: #6f2cd3 /* MAINpurple */
+}
+
+#followingLink {
+    order:2;
+    margin: auto 0;
+}
+
+#browseLink {
+    order:3;
+    margin: auto 0;
+}
+
+#searchBar {
+    order:4;
+    margin: auto 0;
+}
+
+#mainNavBar input[type=text] {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+/* SIDEBAR*/
+
+.sideNav {
+    background: #000000;
+    height: 100%; 
+    width: 5%; 
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    padding-top: 10%;
+    z-index: 8;
+}
+
+.sideNav img {
+    margin-left: 1rem;
+    width: 2.5rem;
+    padding-top: .5rem;
+    border-radius: 100%;
+}
+
+/* VIDEO CONTENT*/
+
+#contentSection{
+    left:5%;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.video{
+    text-align: left;
+}
+
+#videoHeader{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-gap: 1rem;
+    background-color: #222222;
+    width:80%;
+}
+
+#icon{
+    margin: auto auto;
+    order: 1;
+}
+
+#videoHeader img{
+    border-radius: 100%;
+    width: 6rem;
+    margin: auto auto;
+}
+
+#headerDetails{
+    order:2;
+}
+
+#username{
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+#videoTitle{
+    font-size: 14pt;
+    font-weight: 400;
+    margin: 0;
+    padding-top: .5rem;
+}
+
+#featuredTags{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 1rem;
+}
+
+#gameFeatured {
+    color: #B191E2;
+    font-size: 14pt;  
+    order: 1;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+button {
+    color:#555555;
+    font-size: medium; 
+    border-radius: 10pt;
+}
+button:hover {
+    background-color: #6f2cd3;
+    color: white;
+    font-size: medium; 
+}
+#tags{
+    margin: 0;
+    padding-top: 1rem;
+    order: 2;
+}
+
+#gridContent{
+
+}
+
+/* CHAT BAR (RIGHT) -- Potentially come back to this later*/
+/*
+#chatWrangler{
+    background: #000000;
+    height: 100%; 
+    width: 15%; 
+    position: fixed; 
+    z-index: 3;
+    top: 0; 
+    right: 0;
+    display: grid;
+    
+}
+
+#chat-window {
+    overflow-y: scroll;
+    animation: .15s;
+    width: 15%;
+    padding-left: 2%;
+    padding-right: 5%;
+    margin: 0 auto;
+    background-color: #69f420;
+    color: #f69420;
+}
+
+#chatMgmt {
+    order: 3;
+}
+
+#chatMgmt form{
+    display: grid;
+    height: 10vh;
+    width: 80vw;
+    grid-template-columns: 70vw 10vw;
+    grid-gap: 2vw;
+    margin: 0 auto;
+}
+*/
