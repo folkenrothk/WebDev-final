@@ -1,0 +1,262 @@
+/* Style sheet for channel profile pages */
+/* global */
+/* colors:
+    #FFFFFF; White
+    #222222; Dark Grey 
+    #333333; Light Grey
+    #42069F; Dark Purple
+    #6F2CD3; Mid Purple
+    #B191E2; Light Purple
+*/
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #333333;
+    color: #ffffff;
+    margin: 0;
+}
+
+img {
+    margin: auto auto;
+    width:10vw;
+}
+
+a{
+    color: #ffffff;
+}
+
+/*MAIN MENU*/
+.globalNavMenuBar {
+    top:0;
+    background: #000000;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    padding: 1%;
+    grid-gap: 15px;
+    position: sticky;
+    z-index: 10;
+
+}
+
+.globalNavMenuBar a:hover {
+    color: #6f2cd3 /* mid purple */
+}
+
+.globalNavMenuBar img {
+    height: 4em;
+    width: 12em;
+    order: 1;
+    margin: auto 0;
+}
+
+#followingLink {
+    order: 2;
+    margin: auto 0;
+}
+
+#browseLink {
+    order: 3;
+    margin: auto 0;
+}
+
+#searchBar {
+    order: 4;
+    margin: auto 0;
+}
+
+
+.globalNavMenuBar input[type=text] {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+/*SIDEBAR*/
+.sideNav {
+    background: #000000;
+    height: 100%; 
+    width: 5%; 
+    position: fixed; 
+    z-index: 2; 
+    top: 0; 
+    left: 0;
+    padding-top: 10%;
+    z-index: 8;
+}
+
+.sideNav img {
+    margin-left: 1rem;
+    width: 2.5rem;
+    padding-top: .5rem;
+    border-radius: 100%;
+}
+
+/* Channel Profile Page */
+#profile {
+    margin-left: 8%;
+    width: 95%;
+}
+
+.profileTop {
+    margin-left: 8%;
+    display: grid;
+    width: 85%;
+    grid-template-columns: 20% 70%;
+    grid-template-rows: 100%;
+    grid-gap: 15px;
+    padding: 5px;
+    padding-left: 8%;
+}
+
+#statusBox {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 3rem;
+    display:block;
+    background: #B191E2 /* light purple*/
+}
+
+#embeddedVideo {
+    grid-column: 2;
+    grid-row: 1;
+    padding: .5rem;
+    display:block;
+    background: #42069F
+}
+
+#headerVideo {
+    text-align: center;
+}
+
+video {
+    height: 95%;
+    width: 70%;
+}
+
+/*CHANNEL HEADER*/
+#channelHeader {
+    margin-left: 8%;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    padding: 1rem;
+    background-color: #222222;
+    width:85%;
+}
+
+#icon{
+    margin: auto auto;
+    order: 1;
+    border-radius: 100%;
+    width: 7vw;
+}
+
+#channelText{
+    order:2;
+}
+
+#username {
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+#followers{
+    font-size: 14pt;
+    font-weight: 400;
+    margin: 0;
+    padding-top: .5rem;
+}
+
+.channelTabs {
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 5%;
+    width: 85%;
+    grid-gap: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+#channelHomeTab {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 3rem;
+    display:block;
+    background: #42069F 
+}
+
+#channelAboutTab {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 3rem;
+    display:block;
+    background: #42069F;
+}
+
+#channelScheduleTab {
+    grid-column: 3;
+    grid-row: 1;
+    padding: 3rem;
+    display:block;
+    background: #42069F;
+}
+
+#channelVideosTab {
+    grid-column: 4;
+    grid-row: 1;
+    padding: 3rem;
+    display:block;
+    background: #42069F; 
+}
+
+h3 {
+    font: 600;
+}
+
+.recentBroadcasts {
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    padding: 5px;
+    margin: 2rem;
+    width: 85%;
+    background: #222222;
+}
+
+.recentlyStreamedCategories {
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    padding: 5px;
+    margin: 2rem;
+    width: 85%;
+    background: #222222;
+}
+
+.channelSuggestedStreamers {
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    padding: 5px;
+    margin: 2rem;
+    width: 85%;
+    background: #222222;
+}
+
+.channelSuggestedStreamers img {
+    border-radius: 100%;
+}
