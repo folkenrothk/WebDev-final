@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <link href="../style/style-profile.css" rel="stylesheet">
-    <title>Profile: {Title}</title>
+    <title>Profile: {username}</title>
   </head>
   <body>
 
@@ -29,35 +29,50 @@
     </div>
 
     <!-- Start of Channel Profile -->
-    <section class = "profileTop">
-      <section id = "statusBox">
-        Status Box
+    <section id="profile">
+      <section class = "profileTop">
+        <section id = "statusBox">
+          Status Box
+        </section>
+        <section id = "embeddedVideo">
+          <video width="50%" controls>
+            <source src="../style/video/holdPls.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+        </section>
       </section>
-      <section id = "embeddedVideo">
-        Embedded Video
+      <section id = "channelHeader">
+        <a href="../profiles/_templateProfile.html"><img id="icon" src="../style/img/tempGamer.png" alt="Temp Icon"></a>
+        <div id="channelText">
+          <h1 id="username"> Username</h1>
+          <h2 id="followers"> # Followers</h2>
+        </div>
       </section>
-    </section>
-    <section class = "channelName">
-      Channel_Name
-    </section>
-    <section class = "channelTabs">
-      <div id = "channelHomeTab">Home</div>
-      <div id = "channelAboutTab">About</div>
-      <div id = "channelScheduleTab">Schedule</div>
-      <div id = "channelVideosTab">Videos</div>
-    </section>
-
-    <section class = "recentBroadcasts">
-      Recent Broadcasts
-    </section>
-
-    <section class = "recentlyStreamedCategories">
-      Recently Streamed Categories
-    </section>
-
-    <section class = "channelSuggestedStreamers">
-      Channel Suggested Streamers
-    </section>
+      <section class = "channelTabs">
+        <div id = "channelHomeTab"><a href="_templateProfile.html">Home</a></div>
+        <div id = "channelAboutTab">About</div>
+        <div id = "channelScheduleTab">Schedule</div>
+        <div id = "channelVideosTab">Videos</div>
+      </section>
+  
+        <section class = "recentBroadcasts">
+          Recent Broadcasts
+        </section>
+  
+        <section class = "recentlyStreamedCategories">
+          Recently Streamed Categories
+        </section>
+  
+        <section class = "channelSuggestedStreamers">
+          Suggested Channels
+          <a href="profileBvnny.html"><img class="suggestedIcons" src="../style/img/bvnny.png"></a>
+          <a href="profileCoolCatz.html"><img class="suggestedIcons" src="../style/img/coolcatz/coolcatz_icon_white.png"></a>
+          <a href="profileDognuts.html"><img class="suggestedIcons" src="../style/img/dognuts/DogNut_icon.png" ></a>
+          <a href="profileGmrGrl.html"><img class="suggestedIcons" src="../style/img/gmr_grl/gmr_grl_icon_tp.png"></a>
+          <a href="profileKatw.html"><img class="suggestedIcons" src="../style/img/katwGamer.png"></a>
+          <a href="profileTruGamer.html"><img class="suggestedIcons" src="../style/img/truGamer.png"></a>
+        </section>
+      </section>
 
     <script src="scripts/script.js" type="text/javascript"></script>
   </body>
