@@ -1,6 +1,6 @@
 # CMPSC 302 Final Report
 
-Please respond to the following prompts.
+Please respond to the following prompts.//
 
 ## Was your project a success? Describe why or why not.
 
