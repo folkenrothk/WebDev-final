@@ -6,3 +6,5 @@ gameFeatured = document.getElementById("gameFeatured");
 
 document.getElementById("title").innerText = `${username}: ${gameFeatured}`;
 */
+
+  
