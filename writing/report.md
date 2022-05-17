@@ -1,22 +1,26 @@
 # CMPSC 302 Final Report
 
-Please respond to the following prompts.//
+Please respond to the following prompts.
 
 ## Was your project a success? Describe why or why not.
 
-Despite the issues we faced and the amount of reworking we had to do, Kate and I both feel the final product is a success. We started with very loose mockups of a "twitch-like" website, featuring very lofty goals for features and types of pages we wanted to include. Even though our goals had to shift as we began working on the project, and changed even further as we got closer to the project's deadline, we still were able to keep our core features and goals intact - such as the embedded videos, navigational menues, and images as page links - to complete the project as best as we could. We kept our base structure, fun visuals, and strong brand image across the whole website. 
+Despite the various issues we faced and the amount of reworking we had to do, Kate and I both feel the final product is an overall success. We started with very loose mockups of a "Twitch-like" website, featuring very lofty goals for features and types of pages we wanted to include. Even though our goals had to shift as we began working on the project, which changed even further as we got closer to the project's deadline, we still were able to keep our core features and goals intact. These included things such as the embedded videos, navigational menus, and images as page links to complete the project as best as we could. We kept our base structure, fun visuals, and strong brand image across the whole website. 
 
 ## What surprising skills did you learn as part of developing the project?
 
-
+We were happily surprised by the new depth of our skills especially in layout and style. Though we came into this project seemingly confident in some of those skills we learned earlier in the semester, we were able to grow and improve some of the code with what we have learnt. We were also more confident to look online other sources to understand how to implement features like the carousel on the index and embedded videos on the other pages. Beyond being able to read and understand code better, we also developed skills to code together. We have learned about many difficulties that can arise especially with our opposing styles. We developed better communication and cooperation through this project. 
 
 ## Reflect on the areas where you believe you've demonstrated the most strength/knowledge.
 
-Both Kate and I had to get very good at using grids to lay out the content on our pages. We wanyted to include images and embed videos into our pages that were reactive to layout changes. We had to practice building a strong and flexible foundation for our website that would continue to work the more we built onto it. We also had to improve our communication about what parts of the project we were working on ahead of time, and be sure to keep each other up to date on what still needed to be done. I feel that all of these skills show best in our page design, consistent brand image, and foundational functionality; all of which can be built upon with more knowledge and new ideas down the line. 
+Both Kate and I had to get very good at using grids to lay out the content on our pages. We wanted to include images and embed videos into our pages that were reactive to layout changes. We had to practice building a strong and flexible foundation for our website that would continue to work the more we built onto it. We also had to improve our communication about what parts of the project we were working on ahead of time, and be sure to keep each other up to date on what still needed to be done. I feel that all of these skills show best in our page design, consistent brand image, and foundational functionality; all of which can be built upon with more knowledge and new ideas down the line. 
 
 ## How does completing this project further your professional or academic goals?
 
-As someone hoping to go into graphic design for work, I've been asked in a lot of interviews about my web design/development experience. This project was a great opportunity to practice what we learned in class and build a website from scratch that looks far more professional than I would have been encouraged to do otherwise. It's also a great example piece of something functional. The website was made with a clear purpose and is functional in the ways we hoped it would be. It's also a very flexible site that could easily be built upon at a later date. It's a project either or both of us could come back to and build on or use for future practice in functionality and design. 
+Annaliese:
+    As someone hoping to go into graphic design for work, I've been asked in a lot of interviews about my web design/development experience. This project was a great opportunity to practice what we learned in class and build a website from scratch that looks far more professional than I would have been encouraged to do otherwise. It's also a great example piece of something functional. The website was made with a clear purpose and is functional in the ways we hoped it would be. It's also a very flexible site that could easily be built upon at a later date. It's a project either or both of us could come back to and build on or use for future practice in functionality and design. 
+
+Kate:
+    Though it may not be in my direct professional goals, I feel like this has been an exercise to understand what features I can do for my senior project. As with any coding project, efficiency is only improved after trying it once. Reflecting on this project, I am already curious about how the profiles or video pages could have been created from parsing data in an XML sheet and developed from a simple template. Professionally, I am happy to have these skills on my resume. I am often asked for "odd-end" computing projects when I am completing other work and am now confident to include this type of product as well. 
 
 ## From the syllabus, choose at least `2` learning objectives you achieved, and describe how below.
 
